@@ -1,0 +1,1069 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family:'Poppins' ;
+}    
+
+.container{
+   max-width: 80%;
+    margin: auto;
+}
+/*navbar*/
+.navbar{
+background-color: black;
+padding: 10px;
+box-shadow: 0px 1.5px 8px 0px rgb(147, 143, 143);
+position: sticky;
+   top: 0;
+   z-index: 100;
+}
+
+.navbar .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Poppins' ;
+}
+.logo img{
+    width: 30px;
+    height: 20px;
+    border: 0.1px solid white;
+}
+.logo{
+    color: white;
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;   
+}
+.list ul li a{
+    color:white;
+    font-size: 12px;
+}
+.list ul li a:hover{
+    font-weight: 1000;
+}
+a{
+    text-decoration:none;
+}
+/* palestine*/
+.heder{
+    height: 700px;
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/0.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    animation:changebackground 100s alternate 0.5s infinite both;
+    
+}
+@keyframes changebackground {
+    0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/0.webp);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+   10%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/1.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+   }
+    20%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/2.webp);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    30%{ 
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/3.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+   40%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/4.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+      }
+    50%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/5.jpeg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    60%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/6);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    70%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/7);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    80%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/8.webp);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    90%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/9);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    100%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/heder_img/10);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    }
+.heder .palestine{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;  
+}
+.palestine p{
+    font-size: 70px;
+    color: white;
+
+ 
+}
+
+/*What happened */
+.What_happened{
+ background-color: rgb(230, 223, 223);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.What_happened h2{
+    text-align: center;
+}
+
+
+/* Gaza war */
+.war{
+ height: 900px;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+gap: 20px;
+
+}
+
+
+.sqer{
+    width: 350px; 
+    height: 350px;
+    background-color: white;
+    border:0.4px solid rgb(158, 155, 155) ; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.part2{
+    font-size: 20px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+    
+
+}
+.part3{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+      
+  
+  }
+  .part4{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+      
+  
+  }
+  .last_part{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+  }
+  .sqer img {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+  }
+
+.red-triangle{
+    position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid red;
+        display: table-cell;
+        
+           
+          }
+.sqer:hover {
+.red-triangle{
+  animation: animate 0.5s infinite;
+}
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*Gaza */
+.Gaza{
+    width: 100%;
+    height: 800px;
+    font-size: 15px;
+    color: white;
+    z-index: 2;
+    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    position: relative;
+  
+
+   
+}
+.red-triangle2{
+    position: absolute;
+        width: 0;
+        top: 100px;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid red;
+        display: table-cell;
+        z-index: 10;
+        
+           
+          }
+.Gaza:hover {
+.red-triangle2{
+  animation: animate 0.5s infinite;
+}
+}
+.imgs{
+  
+    width:1470px ;
+    height:800px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5px;
+   
+  }
+  
+  .up{
+    position: absolute;
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) ;
+    width:1470px;
+    height:800px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .test{
+    position: absolute;
+  height:800px ;
+  width: 1470; 
+  display: flex;
+justify-content: center;
+
+
+   
+}
+@keyframes changebackgroundz1 { 
+  from{
+    z-index: 3;
+  }
+  to{
+    z-index: 0;
+  }
+  }
+  
+  
+.test .t1{
+  position: absolute;
+  height:800px ;
+  width: 1470;
+  z-index: 3;
+  animation:changebackgroundz1 20s alternate 0.5s infinite both;
+}
+.test .t2{
+  position: absolute;
+  height:800px ;
+  width: 1470;
+  
+}
+     
+
+  .Gaza img{
+      display: block;
+      width: 365px;
+      height: 400px;
+
+  }
+
+/* now*/
+.What_is_happening{
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(230, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.colm{
+    display: flex;
+    flex-direction: column;
+    width: calc( ( 100% - 40px )/2 );
+}
+.What_is_happening .titel{
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+   
+   
+}
+
+.parts{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sqer1{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border:0.4px solid rgb(158, 155, 155) ; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa; 
+
+
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.1.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    animation:changebackground1 50s alternate 0.5s infinite both;
+
+   
+}
+@keyframes changebackground1 {
+    0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.1.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    10%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.2.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+   20%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.3.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+   }
+    30%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.4.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.5.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    50%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.6.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+   60%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.7.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+   }
+    70%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.8.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    80%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.9.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    90%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.10.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      } 
+    100%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/jenen/j.11.jfif);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+
+    .sqer2{
+        width: 600px;
+        height: 350px;
+        background-color: white;
+        border:0.4px solid rgb(158, 155, 155) ; 
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #aaaaaa; 
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/0.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        animation:changebackground2 50s alternate 0.5s infinite both;
+    
+       
+    }
+    @keyframes changebackground2 {
+        0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/0.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+        }
+        10%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/1.jfif);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+        }
+       20%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/2.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+       }
+        30%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/3.jfif);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+          }
+        40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/4.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+        }
+        50%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/5.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+        }
+       60%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/6.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+       }
+        70%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/7.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+          }
+        80%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/8.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+          }
+        90%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/9.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+          } 
+        100%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/gaza/10.jfif);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+
+        .sqer3{
+            width: 600px;
+            height: 350px;
+            background-color: white;
+            border:0.4px solid rgb(158, 155, 155) ; 
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #aaaaaa;
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/0.jfif);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            animation:changebackground3 50s alternate 0.5s infinite both;
+        
+           
+        }
+        @keyframes changebackground3 {
+            0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/0.jfif);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            10%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/1.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+           20%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/2.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+           }
+            30%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/3.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+              }
+            40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/4.webp);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            50%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/5.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+           60%{
+            background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/6.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+           }
+            70%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/7.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+              }
+            80%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/8.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+              }
+            90%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/9.jfif);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+              } 
+            100%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/happening/dont/10.jfif);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+/*again */
+
+          .again{
+            width: 100%;
+            height:650px ;
+            background-color: #998d8d;
+          }  
+          .again .titel{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+          }         
+            .compar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            }
+            .spase{
+             height: 650px;
+              display: flex;
+              flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px
+            }
+            .sqerPast{
+                width: 600px;
+                height: 350px;
+                background-color: white;
+                border:0.4px solid rgb(158, 155, 155) ; 
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px #aaaaaa;
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/1.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+                animation:changebackgroundA_1 50s alternate 0.5s infinite both;    
+            }
+            @keyframes changebackgroundA_1 {
+                0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/1.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+               20%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/2.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+               }
+                
+                40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/3.png);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+               60%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/4.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+               }
+                
+                80%{
+                    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/5.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                  }
+                
+                100%{
+                    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/6.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                  }
+                }
+            .sqerNow{
+                width: 600px;
+                height: 350px;
+                background-color: white;
+                border:0.4px solid rgb(158, 155, 155) ; 
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px #aaaaaa;
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.1.1.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+                animation:changebackgroundA_2 50s alternate 0.5s infinite both;    
+            }
+            @keyframes changebackgroundA_2 {
+                0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.1.1.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+               20%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.2.1.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+               }
+                
+                40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.3.1.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+               60%{
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.4.1.webp);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+               }
+                
+                80%{
+                    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.5.1.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                  }
+                
+                100%{
+                    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/again/a.6.1.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                  }
+                }
+                /* nothing*/
+               .nothing{
+                width:1470px ;
+                height: 800px;
+                
+                color: white;
+                z-index: 2;
+                position: relative;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+                
+              
+               }
+               .up{
+                position: absolute;
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) ;
+                width:1470px;
+                height:800px ;
+                z-index: 10;
+                flex-wrap: wrap;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              
+               
+            
+              }
+               .nothing .up p{
+                width: 300px;
+                height: 300px;
+                text-align: center;
+               
+              }
+              .up p:hover{
+              font-weight: 1000;
+              }
+              
+              .nothing img{
+                  display: block;
+                  width: 365px;
+                  height: 400px;
+                  font-size: 20px;
+            
+              }
+
+              .imgs{
+  
+                width:1470px ;
+                height:800px ;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5px;
+               
+              }
+              
+              .up{
+                position: absolute;
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) ;
+                width:1470px;
+                height:800px ;
+                z-index: 10;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              }
+             /* around the world*/ 
+             .world{
+                width: 100%;
+                height: 700px;
+                background-color:  rgb(230, 223, 223);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px; 
+                 font-size: 20px;
+                 font-weight: 800;
+             }
+             .box{
+                width: 900px;
+                height: 500px;
+                background-color: white;
+                border:0.4px solid rgb(158, 155, 155) ; 
+                box-shadow: 10px 10px 5px #aaaaaa;
+                border-radius: 10px; 
+                background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/0.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                background-size: 100% 100%; 
+                animation:changebackgroundfast 30s alternate 0.5s infinite both;
+        
+           
+            }
+            @keyframes changebackgroundfast {
+                0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/0.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                5%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/1.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                10%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/2.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                15%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/3.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                20%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/4.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                25%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/5.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                30%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/6.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                35%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/7.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                40%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/8.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                45%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/9.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                50%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/10.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                55%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/11.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                60%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/12.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                65%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/13.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                70%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/14.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                75%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/15.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                80%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/16.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                85%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/17.jfif);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                90%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/18.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                95%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/19.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+                100%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/world/20.jpg);
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: 100% 100%;
+                }
+              
+            }
+
+            /*G */
+.G{
+    height: 700px;
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/0.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    animation:changebackgroundG 100s alternate 0.5s infinite both;
+    
+}
+@keyframes changebackgroundG {
+    0%{  background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/0.webp);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+
+    }
+   10%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/1.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+   }
+    20%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/2.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    30%{ 
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/3.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+   40%{
+    background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/4.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+      }
+    50%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/5.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    60%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/6.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    70%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/7.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    80%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/8.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+      }
+    90%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/9.png);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+    100%{
+        background:linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url(../img/G/10.png);
+        
+                background-position: center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.G img{
+    width: 100%;
+
+    display: block;
+}
+
+
+             
+
+
+
+ 
+
